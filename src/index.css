@@ -1,0 +1,27 @@
+body {
+  background-image: url("pics/tsvety-pink.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* margin: 0; */
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
+
+.clock-container {
+  background-color: #99a0b5b1;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.clock {
+  color: rgb(7, 7, 141);
+  font-size: 8em;
+  font-weight: bold;
+  font-family: monospace;
+  /* text-align: center; */
+  text-shadow: 3px 3px 5px hsl(0, 0%, 0% 0.75%);
+}
